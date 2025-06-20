@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">indie_sell_buy</string>
+    <string name="Login">Login Here</string>
+    <string name="password" />
+    <string name="email" />
+    <string name="Signup">Signup Here</string>
+    <string name="SignupHere">not_yet_indieparts_account_signup</string>
+    <string name="LoginHere">already_have_acoount_login</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Username">Username</string>
+    <string name="Signbtn">SignUp</string>
+    <string name="addproduct">Add Product</string>
+    <string name="select_images">Select Images</string>
+
+    <string-array name="CarCompanies">
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Ford</item>
+        <item>Chevrolet</item>
+        <item>Nissan</item>
+        <item>BMW</item>
+        <item>Audi</item>
+    </string-array>
+    <string-array name="CarType">
+        <item>Sedan</item>
+        <item>SUV</item>
+        <item>Hatchback</item>
+        <item>Coupe</item>
+        <item>Convertible</item>
+        <item>Pickup Truck</item>
+        <item>Minivan</item>
+    </string-array>
+    <string-array name="CarCategory">
+        <item>Economy</item>
+        <item>Compact</item>
+        <item>Midsize</item>
+        <item>Full-size</item>
+        <item>Luxury</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="CarFueltype">
+        <item>Petro</item>
+        <item>Disel</item>
+        <item>CNG</item>
+    </string-array>
+</resources>

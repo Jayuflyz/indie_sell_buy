@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SellerAddProduct"
+    android:theme="@style/Theme.Design.NoActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="2dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="20dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:padding="20dp"
+                            android:background="@color/black">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Upload Product"
+                                    android:textSize="30dp"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"/>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:src="@drawable/upload_image_24"
+                                    android:id="@+id/ProductUpload"
+                                    android:layout_marginTop="10dp"
+                                    android:scaleType="fitXY"/>
+
+                        </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <EditText
+                    android:id="@+id/ProductName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/balck_border_square_round"
+                    android:drawableLeft="@drawable/ic_product_name"
+                    android:hint="Product Name"
+                    android:padding="18dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/ProductDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/balck_border_square_round"
+                    android:drawableLeft="@drawable/ic_description"
+                    android:hint="Description"
+                    android:padding="18dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/ProductPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/balck_border_square_round"
+                    android:drawableLeft="@drawable/ic_money_mrp"
+                    android:hint="Price"
+                    android:inputType="numberDecimal"
+                    android:padding="18dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/ProductDiscountedPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/balck_border_square_round"
+                    android:drawableLeft="@drawable/ic_discount_24"
+                    android:hint="Discount Price"
+                    android:inputType="numberDecimal"
+                    android:padding="18dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select A Car Company :"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/CarCompanySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/balck_border_square_round"
+                    android:entries="@array/CarCompanies"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select A Car Type :"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/CarTypeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/balck_border_square_round"
+                    android:entries="@array/CarType"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select A Car Category :"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/CarCategorySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/balck_border_square_round"
+                    android:entries="@array/CarCategory"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select A Car Fuel Type :"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/CarFueltypeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/balck_border_square_round"
+                    android:entries="@array/CarFueltype"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/ProductSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="10dp"
+                    android:text="Sell Product" />
+
+        </LinearLayout>
+
+</ScrollView>

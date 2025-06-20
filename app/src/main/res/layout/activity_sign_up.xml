@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lavender_border"
+            android:drawableLeft="@drawable/ic_baseline_email"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:hint="Email"
+            />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lavender_border"
+            android:drawableLeft="@drawable/ic_baseline_person"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:hint="Username"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lavender_border"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/mobileno"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lavender_border"
+            android:drawableLeft="@drawable/ic_baseline_call_24"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:hint="Mobile no."
+            />
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Signbtn"
+            android:backgroundTint="@color/black"
+            android:textSize="15sp"
+            app:cornerRadius="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already Have Account of indieparts Login?"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:id="@+id/btnLogin"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/password"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

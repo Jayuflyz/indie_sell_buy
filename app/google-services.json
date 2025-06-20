@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "918116927049",
+    "firebase_url": "https://indie-sell-buy-default-rtdb.firebaseio.com",
+    "project_id": "indie-sell-buy",
+    "storage_bucket": "indie-sell-buy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918116927049:android:4aa16fa94097d6a65f2198",
+        "android_client_info": {
+          "package_name": "com.example.indie_sell_buy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918116927049-gg3cojqdkv53rp1b2nrt2mp9he9771d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfEWk2Ml3ihrEPrAvoRGow7VRUgFZxCRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918116927049-gg3cojqdkv53rp1b2nrt2mp9he9771d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
